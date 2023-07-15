@@ -8,6 +8,7 @@ import instagram from '../Assets/iconInstagram.svg';
 
 function Footer(){
     return(
+            <div class="section" style={{backgroundColor:`#3E436A`}}>
               <nav class="navbar" style={{backgroundColor:`#3E436A`}}>
                     <ul>
                         <li>
@@ -39,17 +40,17 @@ function Footer(){
 
                     <div class="columns is-mobile">
                         <div class="column">
-                            <ul class="menu-list">
-                                <li><a style={{color:`#FFFFFF`}}>About Us</a></li>
-                                <li><a style={{color:`#FFFFFF`}}>Contact</a></li>
-                                <li><a style={{color:`#FFFFFF`}}>Blog</a></li>
+                            <ul class="content has-text-centered">                            
+                                <li><a class="list1">About Us</a></li>
+                                <li><a class="list1">Contact</a></li>
+                                <li><a class="list1">Blog</a></li>
                             </ul>
                         </div>
                         <div class="column">
-                            <ul class="menu-list">
-                                <li><a style={{color:`#FFFFFF`}}>Careers</a></li>
-                                <li><a style={{color:`#FFFFFF`}}>Support</a></li>
-                                <li><a style={{color:`#FFFFFF`}}>Privacy Policy</a></li>
+                            <ul class="content has-text-centered">
+                                <li><a class="list1">Careers</a></li>
+                                <li><a class="list1">Support</a></li>
+                                <li><a class="list1">Privacy Policy</a></li>
                             </ul>  
                         </div>
                     </div>
@@ -73,7 +74,7 @@ function Footer(){
                    
                 </div>
             </nav>
-            
+            </div>
             
             
 

@@ -130,6 +130,14 @@
 .h4:hover {
   color: #31D35C;
 }
+.list1{
+  color: #fff;
+}
+.list1:hover{
+  color: #31D35C;
+}
+
 .svgs:hover {
   background-color: #31D35C;
+  
 }
