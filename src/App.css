@@ -27,6 +27,14 @@
 .App-link {
   color: #61dafb;
 }
+.menu-list :hover {
+  background-color: initial;
+  color: #363636;
+}
+
+.element {
+  float:left;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -35,4 +43,95 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button.is-rounded {
+  background-color: white;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  color: #FFFFFF;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.button:hover, .button.is-hovered {
+  background-image: linear-gradient(to right, #8cf2a7 0%, #81d9ef 100%);
+  border-color: #dbdbdb;
+  color: #FFFFFF;
+}
+
+
+
+
+
+.btn-1 {
+  background-image: linear-gradient(to right, #31D35C 0%, #2BB7DA 100%);
+}
+
+.tavs {
+  -webkit-overflow-scrolling: touch;
+  align-items: stretch;
+  display: flex;
+  font-size: 1rem;
+  justify-content: space-between;
+  overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
+  
+}
+
+.tavs a {
+  align-items: center;
+ 
+  
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2px;
+  padding: 0.5em 1em;
+  vertical-align: top;
+}
+
+
+
+
+
+.tavs li a:hover {
+  
+  color: #2BB7DA;
+  
+
+  
+   
+}
+
+
+.tavs li {
+  display: block;
+}
+
+.tavs li.is-active a {
+  border-bottom-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.tavs ul {
+  align-items: center;
+  border-bottom-color: #FFFFFF;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+
+.h4:hover {
+  color: #31D35C;
 }
