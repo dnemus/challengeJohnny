@@ -1,5 +1,5 @@
 function ContColumn (props) {  
-    return(<div class="column">
+    return(<div class="column is-3-desktop is-12-mobile is-12-tablet">
               <div class="card">  
                 <div class="card-content">
                   <div class="media">

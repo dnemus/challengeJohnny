@@ -15,7 +15,7 @@ function Section3(){
                     </p>
                 </div>
             </section>
-                <div class="columns is-mobile">
+                <div class="columns is-multiline">
                 <ContColumn2 imgs={imgCurrency} alts="Currency Image" authors="By Claire Robinson" titles="Receive money in any currency with no fees" contents="The world is getting smaller and we’re becoming more mobile. So why should you be 
                     forced to only receive money in a single …" />
                 <ContColumn2 imgs={imgRestaurant} alts="Restaurant Image" authors="By Wilson Hutton" titles="Treat yourself without worrying about money" contents="Our simple budgeting feature allows you to separate out your spending and set 

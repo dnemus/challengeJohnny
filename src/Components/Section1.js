@@ -5,7 +5,7 @@ import mockup from '../Assets/mockups.png';
 function Section1(){
     return (
     <section class="section" style={{backgroundColor:`#FAFAFA`}}>
-        <div className="columns">
+        <div className="columns is-multiline">
           <div className='column'>
             <section class="hero">
                 <div class="hero-body">
@@ -20,9 +20,9 @@ function Section1(){
                 </div>
               </section>
             </div>
-        <div className='column is-mobile is-two-thirds' style={{ backgroundImage: `url(${bgIntroDesktop})`,backgroundSize: `cover`, backgroundRepeat: `no-repeat`, marginBottom:`-10%`,marginTop:`-20%`,  marginRight:`-12%`,}}>
+        <div className='column is-two-thirds-desktop is-0-mobile is-6-tablet' style={{ backgroundImage: `url(${bgIntroDesktop})`,backgroundSize: `cover`, backgroundRepeat: `no-repeat`, marginBottom:`-10%`,marginTop:`-20%`,  marginRight:`-12%`,position:`relative`}}>
           
-            <img class="image has-ratio" align="right" style={{marginTop:`20%`, marginBottom:`-10%`,}} src={mockup} alt="Phones" />
+            <img class="image has-ratio" align="right" style={{marginTop:`20%`, marginBottom:`-10%`, position:`relative`}} src={mockup} alt="Phones" />
         
         </div> 
       </div>

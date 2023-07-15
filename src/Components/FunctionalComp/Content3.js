@@ -1,6 +1,6 @@
 function ContColumn2 (props) {  
     return(
-    <div class="column">
+    <div class="column is-3-desktop is-12-mobile is-12-tablet">
       <div class="card">  
           
                 <figure class="image is-4by3">
