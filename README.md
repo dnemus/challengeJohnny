@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 In the project directory, you can run:
 
 ### Published on Vercel
-Open https://vercel.com/dnemus/challenge-johnny to view it in your browser.
+Open https://challenge-johnny.vercel.app to view it in your browser.
 
 ## Learn More
 
