@@ -20,11 +20,11 @@ function Footer(){
                         <li>
                             
                                 <div class="columns is-mobile">
-                                    <div class="column"><a><img src={faceBook}/></a></div>
-                                    <div class="column"><a><img src={youTube}/></a></div>
-                                    <div class="column"><a><img src={twitter}/></a></div>
-                                    <div class="column"><a><img src={pinterest}/></a></div>
-                                    <div class="column"><a><img src={instagram}/></a></div>
+                                    <div class="column"><a><img class="svgs" src={faceBook}/></a></div>
+                                    <div class="column"><a><img class="svgs" src={youTube}/></a></div>
+                                    <div class="column"><a><img class="svgs" src={twitter}/></a></div>
+                                    <div class="column"><a><img class="svgs" src={pinterest}/></a></div>
+                                    <div class="column"><a><img class="svgs" src={instagram}/></a></div>
                                 </div>
                             
                         </li>
