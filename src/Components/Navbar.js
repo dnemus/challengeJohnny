@@ -39,7 +39,7 @@ function NavBar(){
                     <div class="navbar-end">
                     <div class="navbar-item">
                         <div class="buttons">
-                        <a class="button is-primary">
+                        <a class="button btn-1 is-rounded">
                             <strong>Request Invite</strong>
                         </a>
                         
