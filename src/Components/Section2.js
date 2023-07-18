@@ -9,7 +9,7 @@ function Section2(){
     return (
         <section class="section" style={{backgroundColor:`#F3F4F6`}}>
           <div className="columns is-multiline">
-          <div className='column' style={{whiteSpace:`nowrap`}}>
+          <div className='column' >
           <section class="hero is">
             <div class="hero-body">
               <p class="title">
