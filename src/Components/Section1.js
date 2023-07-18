@@ -6,13 +6,15 @@ function Section1(){
     return (
     <section class="section" style={{backgroundColor:`#FAFAFA`}}>
         <div className="columns is-multiline">
-          <div className='column'>
+       
+
+          <div className='column' align="left">
             <section class="hero">
                 <div class="hero-body">
                   <p class="title">
                     Next generation digital banking
                   </p>
-                  <p class="subtitle">
+                  <p class="subtitle" >
                     Take your financial life online. Your Easybank account will be a one-stop-shop 
                     for spending, saving, budgeting, investing, and much more.           
                   </p>
@@ -20,10 +22,10 @@ function Section1(){
                 </div>
               </section>
             </div>
-        <div className='column is-two-thirds-desktop is-0-mobile is-6-tablet' style={{ backgroundImage: `url(${bgIntroDesktop})`,backgroundSize: `cover`, backgroundRepeat: `no-repeat`, marginBottom:`-10%`,marginTop:`-20%`,  marginRight:`-12%`,position:`relative`}}>
-          
-            <img class="image has-ratio" align="right" style={{marginTop:`20%`, marginBottom:`-10%`, position:`relative`}} src={mockup} alt="Phones" />
-        
+            <div className='column is-two-thirds-desktop is-0-mobile is-6-tablet' align="right" style={{ backgroundImage: `url(${bgIntroDesktop})`,backgroundSize: `cover`, backgroundRepeat: `no-repeat`, marginBottom:`-10%`,marginTop:`-20%`,  marginRight:`-12%`,position:`relative`,}}>
+            <div>
+                 <img class="image has-ratio" align="right" style={{marginTop:`20%`, marginBottom:`-10%`, position:`relative`}} src={mockup} alt="Phones" />
+          </div>
         </div> 
       </div>
     </section>

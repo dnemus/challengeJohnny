@@ -12,14 +12,14 @@ function NavBar(){
                     <img src={logo} width="112" height="28"/>
                     </a>
 
-                    <div class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
-                    </div>
+                    </a>
                 </div>
 
-                <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-menu" id="navMenu">
                     <div class="navbar-start">
                 
                     

@@ -26,10 +26,107 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Challenge Johnny</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+   
+   .navbar-burger {
+  overflow: hidden;
+   }
+    @media screen and (max-width: 600px) {
+      .navbar-burger a:not(:first-child) {display: none;}
+      .navbar-burger a.icon {
+        float: right;
+        display: block;
+      }
+    }
+    
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+
+      
+      .navbar-burger.is-active a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+    </style>
+    
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+  
+
+
+    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+          <a class="navbar-item">
+            
+          <img src="logo2.png" width="112" height="28"/>
+          </a>
+        
+          <a role="button" class="navbar-burger" data-target="navbarBasicExample" aria-label="menu" aria-haspopup="true" aria-expanded="false" id="myNav" onclick="MyNav()" aria-label="Collapse or expand the menu">
+          
+            <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
+      </div>
+
+      <div id="navbarBasicExample"  class="navbar-menu" id="navMenu">
+          <div class="navbar-start">
+        
+     
+          </div>
+
+
+          <div id="navbarBasicExample" class="tabs is-centered">
+          <ul>
+              <li><a class="navbar-item" href="#aw-blog">Home</a></li>
+              <li><a class="navbar-item">About</a></li>
+              <li><a class="navbar-item">Contact</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Careers</a></li>
+          </ul>
+          </div>
+
+          <div class="navbar-end">
+          <div class="navbar-item">
+              <div class="buttons">
+              <a class="button btn-1 is-rounded">
+                  <strong>Request Invite</strong>
+              </a>
+              
+              </div>
+          </div>
+          </div>
+      </div>
+  </nav>
+
+
+
+   
     <div id="root"></div>
+    <script>
+      function MyNav() {
+        var x = document.getElementById("myNav");
+        if (x.className === "navbar-burger") {
+          x.className += " is-active";
+         
+          x.setAttribute("aria-expanded", "true")
+        } else {
+          x.className = "navbar-burger";
+          x.setAttribute("aria-expanded", "false")
+        }
+      }
+      </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

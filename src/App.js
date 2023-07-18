@@ -7,10 +7,13 @@ import Section2 from './Components/Section2';
 import Section3 from './Components/Section3';
 import Footer from './Components/Footer';
 
+
+
+
 function App() {
   return (
    <>
-   <div><NavBar /></div>
+     
    <div><Section1 /></div>
    <div><Section2 /></div>
    <div><Section3 /></div>
